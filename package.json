@@ -1,0 +1,12 @@
+{
+  "name": "isProto",
+  "version": "1.0.0",
+  "main": "js/isProto",
+  "scripts": {
+    "build": "coffee -v 1.11.x -b -o js src",
+    "postinstall": "npm run build"
+  },
+  "plugins": [
+    "lotus-coffee"
+  ]
+}
